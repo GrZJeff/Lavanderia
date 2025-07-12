@@ -3,7 +3,8 @@ import { View, Text, TextInput, Alert, StyleSheet, ScrollView, TouchableOpacity 
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 
-const clients = "";
+const clients = "http://192.168.100.180:5000/clients";
+
 
 const CreateClient = () => {
     const navigation = useNavigation();
